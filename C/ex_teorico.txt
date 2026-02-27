@@ -1,0 +1,15 @@
+1. O que é uma estrutura de dados?
+
+2. Qual a diferença entre variável simples e vetor?
+A variavel guarda um elemento, e o vetor, uma lista de elementos.
+
+3. O que é um vetor na linguagem C?
+Uma lista de elementos, assim como em python.
+
+4. O que é uma matriz? Em que ela difere de um vetor?
+5. Para que serve uma struct na linguagem C?
+6. O que significa dizer que uma estrutura de dados é linear?
+7. O que é alocação estática de memória?
+8. Qual a importância das estruturas de dados na programação?
+9. O que é um algoritmo e qual sua relação com estruturas de dados?
+10. Cite exemplos de estruturas de dados básicas utilizadas em C.
