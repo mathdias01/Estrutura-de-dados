@@ -7,8 +7,8 @@ struct No {
         int valor;
         struct No *prox;
         };
-}
- 
+
+
 // Ponteiro para início da lista
 struct No *inicio = NULL;
  
