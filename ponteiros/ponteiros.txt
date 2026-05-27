@@ -1,0 +1,4 @@
+ponteiros:
+*ptr : aponta sempre para o conteudo da variável.
+ptr : aponta para o endereço da variável.
+&ptr : aponta para o endereço do próprio ponteiro.
