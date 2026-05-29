@@ -42,7 +42,7 @@ Fila* enfileirar(Fila* f, Pacote pacote){
     return f;
 }   
 
-Pacote Transmitir(Fila* f, int* sucesso){
+Pacote Transmitir(Fila* f, int *sucesso){
     Pacote vazio = {0, 0, 0.0};
     
     if (estaVaziaFila(f)){

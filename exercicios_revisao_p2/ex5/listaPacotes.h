@@ -17,8 +17,12 @@ typedef struct {
 
 
 ListaAtivos* iniciarLista();
-void inserirInicio(ListaAtivos* l, PacoteAtivo pacote);
-void inserirFinal(ListaAtivos* l, PacoteAtivo pacote);
-void mostrarLista(const ListaAtivos* l);
+void inserirInicio(ListaAtivos *l, PacoteAtivo pacote);
+void inserirFinal(ListaAtivos *l, PacoteAtivo pacote);
+void mostrarLista(const ListaAtivos *l);
+void removerLista(ListaAtivos *l, int id);
+
+
+
 
 #endif

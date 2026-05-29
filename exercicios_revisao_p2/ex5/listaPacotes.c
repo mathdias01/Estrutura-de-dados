@@ -68,3 +68,42 @@ void mostrarLista(const ListaAtivos* l) {
     }
     printf("----------------------------------------\n");
 }
+
+
+void removerLista(ListaAtivos* l, int id) {
+
+    if (l->inicio == NULL) {
+        printf("[AVISO] Lista de ativos vazia. Impossivel remover ID %d.\n", id);
+        return;
+    }
+
+
+    NoLista* atual = l->inicio;
+    NoLista* anterior = NULL;
+
+
+    while (atual != NULL && atual->dado.ID != id) {
+        anterior = atual;    
+        atual = atual->proximo; 
+    }
+
+ 
+    if (atual == NULL) {
+        printf("[AVISO] Pacote com ID %d nao foi encontrado na rede.\n", id);
+        return;
+    }
+
+    
+    
+    if (anterior == NULL) {
+        l->inicio = atual->proximo; 
+    } 
+  
+    else {
+        anterior->proximo = atual->proximo; 
+    }
+
+    
+    free(atual);
+    printf("[SUCESSO] Pacote %d foi removido da lista de ativos com sucesso!\n", id);
+}
